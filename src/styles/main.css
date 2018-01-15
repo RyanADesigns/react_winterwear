@@ -1,0 +1,188 @@
+body {
+  background-color: #CDBCA3;
+}
+ header {
+  background-image: url(../images/woodfloorlong.jpg);
+  top:10rem;
+  height: 23rem;
+  } 
+header img {
+  border-style: none;
+  position: absolute;
+  top: 3rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.image_container {
+  display: inline-flex;
+  
+  width: 100%;
+}
+.top_image {
+  /*position: absolute;*/
+  height: 45rem;
+  width: 25%;
+}
+
+.item-container {
+  float:none;
+  display: block;
+  position:relative;
+  /*float:left;*/
+  border-radius: 0.4rem;
+  background-color: white;
+  /*transition-delay: 0.7s;*/
+  transition-timing-function:;
+  transition-duration: 0.5s;
+  transition-delay: 0.7s;
+  width: 100%;
+  font-size: 2.5rem;
+  z-index:5;
+  height: 20%
+ 
+}
+.item-container:hover {
+  position:relative;
+  float: none;
+  clear:both;
+  width: 100%;
+  height: 65rem;
+  /*z-index: 1;*/
+  /*how to make image-container:hover to grow relative to item image placement. */
+}
+
+.item-image {
+  position: relative;
+}
+.item-container a, p {
+  display: none;
+  position: absolute;
+  top:;
+  left: 17rem;
+  width: 40rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+  overflow:  hidden;
+  
+}
+
+button {
+  padding: 40px 54px;
+  font-size: 3rem;
+  position:absolute;
+  top: 6rem;
+  left: 19rem;
+  
+}
+
+/*.item_image {scroll
+  height: 19rem;
+}*/
+/*nav {
+  display: flex;
+  flex-flow: row;
+  
+}*/ /*trying to make nav into flex-box */
+
+/*nav styling -->>>*/
+/*#D8D8DA*/
+ul {
+  background-color: #D8D8DA;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+li {
+  font-size: 5.5rem;
+  height: 9rem;
+  width: 33%;
+  text-align-last: center;
+  text-decoration: none;
+  font-family: allura, cursive;
+  border-top: 1px solid black;
+}
+ li a {
+  color: #A27B55;
+  text-decoration: none;
+  position: relative;
+  top: 1.7rem;
+ /* font-family: 'Tangerine', cursive;*/
+}
+/*<<<--nav styling*/
+
+ .wood {
+  height: 110rem;
+  /*width: 37.5%;*/
+  width: 100%;
+   background-image: url(../images/Women-Winter.jpg);
+   background-repeat: no-repeat;
+   background-size: cover
+}
+.logo { 
+  height: 45rem;
+}
+/*attempt to make nav snap to full screen length at 480px*/
+
+  /*implement 3 by 3 grid use responsive grid system
+  add header with logo
+  fix logo
+  add font-type */
+ 
+
+footer {
+  position: relative;
+  top:110rem;
+  height: 23rem;
+   background-image: url(../images/woodfloorlong.jpg);
+}
+
+.fa-shopping-cart {
+  color: #A27B55;
+  position: relative;
+  top: 1.7rem;
+  display: inline-block;
+  
+}
+#valID {
+  display: inline-block;
+  position: relative;
+  top: 1.5rem;
+}
+
+
+@media only screen and (max-width: 2700px) {
+  header img {
+    border: 0;
+    position: absolute;
+    top: 5rem;
+    width: 55vmax;
+    height: 15rem;
+}
+  ul {
+    display: flex;
+    flex-flow:column wrap;
+    width: 100%;
+  }
+  li{
+    width: 100%;
+  }
+  .item-container {
+    position:relative;
+    width: 100%;
+    
+  }
+  footer{
+    position: relative;
+    top: 250rem;
+  }
+}
+
+
+
+
+
+

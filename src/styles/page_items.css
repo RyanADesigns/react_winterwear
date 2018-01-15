@@ -1,0 +1,30 @@
+body {
+  background-color: #CDBCA3;
+  font-size: 20px;
+}
+img {
+  display: inline-block;
+  position: absolute;
+  height: 45vmax;
+  width: 40vmax;
+}
+ .description{
+  height: 25vmin;
+  width: 70vmin;
+  font-size: 4.8rem;
+  position: absolute;
+  top: 70%;
+  left:;
+}
+.byNow {
+  font-size: 7.4rem;
+  height: 10rem;
+  width: 100%;
+  position: relative;
+  top:rem;
+  left: 45%;
+}
+
+.prices {
+  color: red;
+}
