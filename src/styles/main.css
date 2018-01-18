@@ -125,6 +125,16 @@ li {
 .logo { 
   height: 45rem;
 }
+
+.top {
+  background-image: url(../images/winterlogo.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3rem;
+  width: 50%;
+  height: 100%;
+  
+}
 /*attempt to make nav snap to full screen length at 480px*/
 
   /*implement 3 by 3 grid use responsive grid system
@@ -136,7 +146,7 @@ li {
 footer {
   position: relative;
   top:110rem;
-  height: 23rem;
+  height: 33rem;
    background-image: url(../images/woodfloorlong.jpg);
 }
 

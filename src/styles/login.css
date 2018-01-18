@@ -1,3 +1,41 @@
+body {
+    /* background-color: black; */
+}
+
+.App {
+    border: 2px solid #000000;
+    background-image: url("../images/wood-floor-4.jpg");
+    /* background-color: black; */
+    background-size: cover;
+    height: 100rem;
+    width: 100%;
+    padding-bottom: 50rem;
+}
+
 h1 {
     font-size: 136px;
+}
+
+.login-button {
+    border: 4px solid blue;
+    width: 30rem;
+    margin: 30rem auto;
+    /* padding-bottom: 50rem; */
+    position: sticky; 
+    top: 90rem;
+}
+
+.button-container-div {
+    /* display: block; */
+    background-image: url("../images/winterlogo.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 50rem;
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+
+    /* margin:0 auto; */
 }

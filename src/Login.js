@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './styles/login.css'
 import {Link, Route} from 'react-router-dom';
-import FrontPage from './frontPage'
+// import FrontPage from './frontPage'
 
 
 class Login extends Component {
@@ -9,17 +9,23 @@ class Login extends Component {
         super()
 
         this.state = {
-
+            results:[]
         }
+
     }
+
 
     render(){
         return (
             <div className="App">
-            <h1>Home</h1>
+            
+            
+            <div className="button-container-div">
+            </div>
             <Route>
            <Link to="/store"> <button className="login-button">Login</button> </Link>
-           </Route>
+            </Route>
+           
             </div>
         )
     }
