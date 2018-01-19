@@ -7,3 +7,6 @@
      background-size: contain;
      background-position: center;
   }
+
+
+  /* why is this css effecting the main page when I havent even imported it into the checkout.js file  */

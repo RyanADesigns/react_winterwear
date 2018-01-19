@@ -9,6 +9,11 @@ TO DO STILL
 
 	4- Figure out image rendering
 
+	_______________________________________________________________________________________________________
+	
+	Tomorrow image rendering 
+	_______________________________________________________________________________________________________
+
 	5- After images on page with description and price 
 
 	6- Add cart functionality and component

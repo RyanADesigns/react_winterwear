@@ -65,8 +65,12 @@ render() {
      const productsArray = this.state.products.map(function(elem,i){
         return (
             <div className="item">
-            <div className="item-container col span">{elem.prod_type} </div>
-           
+            <div className="item-container col span">
+                {elem.prod_type} 
+                <div>{elem.description}</div>
+                <div>{elem.price}</div>
+                  <button>add to cart</button>
+           </div>
            {console.log(elem.imagetitle)}
            </div>
         )
@@ -120,13 +124,14 @@ render() {
 
         {productsArray}
 
-        <Route>
-        <Link to="/Checkout"><button>CHECKOUT</button></Link>
-        </Route>
-
+       
 
         </section>
-        <footer></footer>
+        <footer> 
+        <Route>
+             <Link to="/Checkout"><button>CHECKOUT</button></Link>
+        </Route>
+        </footer>
         </div>
       
       
