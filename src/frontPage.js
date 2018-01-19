@@ -6,6 +6,8 @@ import './styles/page_items.css';
 import './styles/reset.css';
 import './styles/main.css';
 import axios from 'axios'
+import Checkout from './Checkout'
+import {Link, Route} from 'react-router-dom'
 
 
 class FrontPage extends Component {
@@ -62,12 +64,17 @@ render() {
 
      const productsArray = this.state.products.map(function(elem,i){
         return (
+            <div className="item">
             <div className="item-container col span">{elem.prod_type} </div>
+           
+           {console.log(elem.imagetitle)}
+           </div>
         )
-     });
+    
+    })
 
-  
-    return(
+    
+    return (
         <div className="nav-container">
         <header>
           <div className="top">
@@ -112,7 +119,10 @@ render() {
         <section className="item">
 
         {productsArray}
-        
+
+        <Route>
+        <Link to="/Checkout"><button>CHECKOUT</button></Link>
+        </Route>
 
 
         </section>

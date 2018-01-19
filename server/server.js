@@ -5,12 +5,14 @@ const cors = require('cors');
 require('dotenv').config();
 const ctrl = require('./contoller')
 
+
 const app = express();
 
 
 app.use(bodyParser.json())
 
 app.use(cors());
+app.use(express.static('src'))
 
 massive(process.env.CONNECTION_STRING)
 .then(dbInstance => app.set('db', dbInstance));

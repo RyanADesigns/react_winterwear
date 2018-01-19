@@ -7,9 +7,12 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "dotenv": "^4.0.0",
+    "express-static": "^1.2.5",
+    "font-awesome": "^4.7.0",
     "massive": "^4.6.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"
   },

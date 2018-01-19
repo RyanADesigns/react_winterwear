@@ -1,0 +1,9 @@
+.wood {
+    height: 110rem;
+    /*width: 37.5%;*/
+    width: 100%;
+     background-image: url(../images/women-model-blonde.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+  }
